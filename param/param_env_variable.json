@@ -1,0 +1,11 @@
+{
+    "oracle_connection":["jdbc:oracle:thin:@xxxxx.xxxxx.xxxxx:xxxxx/xxxxx.xxxxx.xxxxx"],
+    "username" : ["xxxxx"],
+    "source_schema" :["xxxxx"],
+    "target_schema" :["xxxxx"],
+    "alias_provider": ["jceks://hdfs/tmp/mixm.password.jceks"],
+    "password_alias": ["xxxxx.xxxxx.xxxxx"],
+    "target_dir":["/user/incoming_data/transit_zone/symphony/mixm/initial"],
+    "target_dir_incr":["/user/incoming_data/transit_zone/symphony/mixm/incremental"]
+}
+
